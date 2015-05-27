@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF" >
+
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="4dp"
+   		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+    	android:orientation="horizontal"
+    	android:background="#00FFFF" >
+	
+		<Button android:id="@+id/button_new"
+		    style="@android:style/Widget.Button"
+			android:layout_width="0dp"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	   		android:textColor="#9900ff"
+	   		android:text="@string/button_new" />
+		
+		<Button android:id="@+id/button_delete"
+		    style="@android:style/Widget.Button"
+			android:layout_width="0dp"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	   		android:textColor="#9900ff"
+	   		android:text="@string/button_delete" />
+		
+		<Button android:id="@+id/button_edit"
+		    style="@android:style/Widget.Button"
+			android:layout_width="0dp"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="1"
+	   		android:textColor="#9900ff"
+	   		android:text="@string/button_edit" />
+	
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+		android:layout_marginTop="4dp"
+		android:layout_marginBottom="4dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:padding="2dp"
+    	android:background="#0000FF" >
+	
+		<ListView android:id="@+id/emplList"
+	    	android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#ffffff"
+			android:divider="#0000FF"
+			android:dividerHeight="1dp"
+			android:fadeScrollbars="false" >
+		</ListView>
+	
+	</LinearLayout>
+
+</LinearLayout>
